@@ -61,6 +61,11 @@
 /* Stilizim i introduction */
 
 .introduction {
+  @media screen (max-width:300px) {
+    introduction{
+      width:300px;
+    }
+  }
   width: 700px;
   text-align: center;
   /* margin-top: 100px; */
@@ -176,11 +181,17 @@
 /* About us section */
 
 .about-us {
+  @media screen (max-width:300px) {
+    .about-us{
+      width:300px;
+    }
+  }
   width: 700px;
   margin: 0 auto;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 20px;
 }
 
 .apply-content {
@@ -252,8 +263,15 @@
 }
 /*why choose us intro */
 .choose-us-intro{
+  @media screen (max-width:300px) {
+    .about-us{
+      width:300px;
+    }
+  }
+  
   width: 700px;
   margin: 0 auto;
+  padding-left: 20px;
   
 }
 .choose-us{
@@ -274,6 +292,11 @@
 }  
 
 .get-in-touch-intro{
+  @media screen (max-width:300px) {
+    .about-us{
+      width:300px;
+    }
+  }
   width: 700px;
   margin: 0 auto;
 }
